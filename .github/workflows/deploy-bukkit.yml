@@ -24,7 +24,6 @@ jobs:
           output-suffix: "output"
       - name: 'deploy bukkit'
         uses: IngGameTeam/deploy-bukkit@main
-        id: deploy bukkit
         with: 
           branch: ${{ github.event.label.name }}
           repo: ${{ github.repository }}
