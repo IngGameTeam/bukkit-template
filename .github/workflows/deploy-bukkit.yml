@@ -25,7 +25,7 @@ jobs:
       - name: 'deploy bukkit'
         uses: IngGameTeam/deploy-bukkit@main
         with: 
-          branch: ${{ github.event.label.name }}
+          branch: ${{ github.event.label.name }}-output
           repo: ${{ github.repository }}
           actor: ${{ github.actor }}
           token: ${{ secrets.GITHUB_TOKEN }}
